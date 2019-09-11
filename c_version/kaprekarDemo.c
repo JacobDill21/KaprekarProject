@@ -6,7 +6,7 @@
 int main(int argc, char **argv) {
 
   if(argc != 2) {
-    printf(stderr, "Usage: %s n\n", argv[1]);
+    fprintf(stderr, "Usage: %s n\n", argv[1]);
     exit(1);
   }
 
